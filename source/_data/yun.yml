@@ -1,0 +1,51 @@
+colors:
+  primary: "#FFCC99"
+  # primary: "#6200ee"
+  bg: "#CCFFCC"
+  selection_bg: "#CCCCFF"
+  tag_start_color: "#999999"
+  tag_end_color: "#0078E7"
+  dark:
+    block: "#66CCFF"
+    # block: "#17202A"
+
+# Favicon
+# ---------------
+favicon: /qkndlxz.ico
+
+# UI
+banner:
+  enable: true
+  title: 并鱼厥切的小站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+bg_image:
+  enable: true
+  url: /images/bg_image.png # recomend image related to your mode
+  dark: /images/bg_image_dark.jpg
+  # blur: 10px
+  opacity: 1
+
+trianglify:
+  enable: false
+  opacity: 0.1
+
+avatar:
+  enable: true
+  url: /qkndlxz.png
+  # If true, the avatar would be dispalyed in circle.
+  rounded: true
+  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: false
+    emoji: 😊
+    message: 永远相信美好的事情即将发生
