@@ -63,13 +63,18 @@ menu:
       path: /tags/
       icon: icon-price-tag-3-line
   custom:
-    title: 文档
-    path: /about/#comment
+    title: 关于
+    path: /about
     icon: icon-clipboard-line
 
 banner:
   enable: true
-  title: 并鱼厥切的小站
+  title:
+    - 并鱼
+    - 厥切
+    - 的
+    - 求学
+    - 之路
   src: /js/ui/banner.js
   border: true
   cloud:
@@ -84,3 +89,39 @@ bg_image:
   url: /images/bg_image.jpg
   dark: /images/bg_image_dark.jpg
   opacity: 1
+
+reward:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: 穷苦学生 T u T ，求口饭吃
+  methods:
+    - name: 支付宝
+      path: /images/alipay.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: /images/wechat-pay.jpg
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+footer:
+  since: 2019
+  icon:
+    name: icon-cloud-line
+    animated: true
+    color: "#0078E7"
+    url: /about
+    title: 关于本站
+  powered:
+    enable: false
+  live_time:
+    enable: true
+    prefix: 本博客已奋力运行
+    suffix: (*＾-＾*)
+    start_time: "2021-10-13T08:00:00"
+
+# npm install hexo-wordcount
+wordcount:
+  enable: true
+  count: true
+  time: true
