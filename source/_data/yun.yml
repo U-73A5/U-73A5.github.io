@@ -105,7 +105,7 @@ reward:
       icon: icon-wechat-pay-line
 
 footer:
-  since: 2019
+  since: 2021
   icon:
     name: icon-cloud-line
     animated: true
@@ -118,10 +118,13 @@ footer:
     enable: true
     prefix: 本博客已奋力运行
     suffix: (*＾-＾*)
-    start_time: "2021-10-13T08:00:00"
+    start_time: "2021-10-13T08:00:00+08:00"
 
 # npm install hexo-wordcount
 wordcount:
   enable: true
   count: true
   time: true
+
+wordcloud:
+  enable: true
