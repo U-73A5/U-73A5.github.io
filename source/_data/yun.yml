@@ -1,19 +1,72 @@
+mode: time
+
 colors:
-  primary: "#FFCC99"
-  # primary: "#6200ee"
-  bg: "#FFCC99"
-  selection_bg: "#CCCCFF"
+  primary: "#6666FF"
+  bg: "#f5f5f5"
+  selection_bg: "#8e71c1"
   tag_start_color: "#999999"
   tag_end_color: "#0078E7"
   dark:
-    block: "#66CCFF"
-    # block: "#17202A"
+    block: "#1b1f2e"
 
-# Favicon
-# ---------------
 favicon: /favicon.ico
 
-# UI
+social:
+  - name: GitHub
+    link: https://github.com/U-73A5
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: 知乎
+    link: https://www.zhihu.com/people/U-73A5
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/396418002
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=314388667
+    icon: icon-netease-cloud-music-line
+    color: "#C20C0C"
+  - name: Twitter
+    link: https://twitter.com/Qkndlxz
+    icon: icon-twitter-line
+    color: "#1da1f2"
+  - name: Travelling
+    link: https://travellings.link
+    icon: icon-train-line
+    color: black
+
+avatar:
+  enable: true
+  url: /avatar.png
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: false
+    emoji: 😊
+    message: 永远相信美好的事情即将发生
+
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+  custom:
+    title: 文档
+    path: /about/#comment
+    icon: icon-clipboard-line
+
 banner:
   enable: true
   title: 并鱼厥切的小站
@@ -21,31 +74,13 @@ banner:
   border: true
   cloud:
     enable: true
-    color: "white"
+    color: "black"
   go_down:
     enable: true
     icon: icon-arrow-down-s-line
 
 bg_image:
   enable: true
-  url: /images/bg_image.png # recomend image related to your mode
+  url: /images/bg_image.jpg
   dark: /images/bg_image_dark.jpg
-  # blur: 10px
   opacity: 1
-
-trianglify:
-  enable: false
-  opacity: 0.1
-
-avatar:
-  enable: true
-  url: /avatar.png
-  # If true, the avatar would be dispalyed in circle.
-  rounded: true
-  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
-  opacity: 1
-  mickey_mouse: false
-  status:
-    enable: false
-    emoji: 😊
-    message: 永远相信美好的事情即将发生
