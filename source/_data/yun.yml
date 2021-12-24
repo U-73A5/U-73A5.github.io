@@ -39,7 +39,7 @@ social:
 
 avatar:
   enable: true
-  url: /avatar.png
+  url: /avatar.webp
   rounded: true
   opacity: 1
   mickey_mouse: false
@@ -86,8 +86,8 @@ banner:
 
 bg_image:
   enable: true
-  url: /images/bg_image.jpg
-  dark: /images/bg_image_dark.jpg
+  url: /images/bg_image.webp
+  dark: /images/bg_image_dark.webp
   opacity: 1
 
 reward:
@@ -96,11 +96,11 @@ reward:
   comment: 穷苦学生 T u T ，求口饭吃
   methods:
     - name: 支付宝
-      path: /images/alipay.jpg
+      path: /images/alipay.webp
       color: "#00A3EE"
       icon: icon-alipay-line
     - name: 微信支付
-      path: /images/wechat-pay.jpg
+      path: /images/wechat-pay.webp
       color: "#2DC100"
       icon: icon-wechat-pay-line
 
